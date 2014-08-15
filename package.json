@@ -1,8 +1,8 @@
 {
-  "name": "ticker",
-  "version": "0.1.0",
-  "author": "Charlie Brown <carbonrobot@gmail.com>",
-  "description": "Synchronized push notifications using Node, AngularJS, and Socket.IO",
+  "name": "nodeticker",
+  "version": "0.1.1",
+  "author": "Nick Fogle",
+  "description": "Pushing Stock Prices with Node, AngularJS, and Socket.IO",
   "dependencies": {
     "express": "*",
     "jade": "*",
