@@ -29,11 +29,11 @@ Ticker.prototype.buy = function (name) {
 
 var ticker = new Ticker({
     growth: 10.0,
-    decay: 1900.0,
+    decay: 1500.0,
     stocks: [
-        { name: "Apple", price: 94.50 },
-        { name: "Microsoft", price: 43.00 },
-        { name: "Facebook", price: 37.75 }
+        { name: "APPL", price: 94.50 },
+        { name: "TSM", price: 25.00 },
+        { name: "FB", price: 37.75 }
     ]
 });
 process.on('message', function (msg) {
