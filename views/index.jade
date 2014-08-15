@@ -6,15 +6,15 @@ block main
 
          p Stock prices will decrease once initiated. 'Buying' more stock to drive the price back up.
 
-        .alert.alert-info Open multiple browser windows to get the full effect.
+        .alert.alert-info Open multiple browser windows to observe pricing sync.
         .well.clearfix
             .col-sm-6
                 h3.no-bottom-margin
                     | Status&nbsp
                     span(class='label label-primary') {{status}}
                 .drop
-                    button(type='button', class='btn btn-success', ng-click='start()') Sell
-                    button(type='button', class='btn btn-danger' ng-click='stop()') Buy
+                    button(type='button', class='btn btn-success', ng-click='start()') Start
+                    button(type='button', class='btn btn-danger' ng-click='stop()') Stop
 
             .col-sm-6
                 ul(class='list-group')
